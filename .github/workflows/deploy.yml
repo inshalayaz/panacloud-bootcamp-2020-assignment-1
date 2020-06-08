@@ -28,7 +28,7 @@ jobs:
     - name: Install Surge
       run: npm install -g surge
     - name: Run Surge
-      run: surge ./ inshalayaz2020.surge.sh
+      run: surge ./ inshalayaz2020.surge.sh --token ${{secret.Surge_Token}}
 
       
  
